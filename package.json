@@ -1,0 +1,18 @@
+{
+  "name": "listrequires",
+  "version": "0.0.1",
+  "description": "Tool for inspecting local require() trees in NodeJS projects",
+  "main": "listrequires.js",
+  "bin": {
+    "listrequires": "bin/listrequires.js"
+  },
+  "repository": "https://github.com/alexmcmillan/listrequires",
+  "keywords": [
+    "require",
+    "tree",
+    "list",
+    "dependencies"
+  ],
+  "author": "Alex McMillan <alexmcmillan23@gmail.com>",
+  "license": "MIT"
+}
