@@ -1,6 +1,6 @@
 {
   "name": "listrequires",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tool for inspecting local require() trees in NodeJS projects",
   "bin": "./bin/listrequires.js",
   "repository": "https://github.com/alexmcmillan/listrequires",
