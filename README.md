@@ -1,5 +1,7 @@
 # listrequires
-Tool for inspecting local require() trees in NodeJS projects
+Tool for inspecting local require() trees in NodeJS projects.  
+
+Intended just to indicate what you are `require`ing where.  Generates output similar to `npm list` but excludes nested dependencies, focusing instead on your project files.
 
 # installation
 
