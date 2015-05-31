@@ -1,6 +1,7 @@
 #!/usr/bin/env node
+var path = require('path');
 var listrequires = require('../lib/listrequires');
 
-var filename = './' + process.argv[1];
+var filename = path.join(process.cwd(), process.argv[2]);
 
 listrequires(filename);
